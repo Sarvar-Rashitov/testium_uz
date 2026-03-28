@@ -48,19 +48,16 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
+        url: '/favicon.svg',
         type: 'image/svg+xml',
       },
+      {
+        url: '/favicon.ico',
+        sizes: 'any',
+      },
     ],
-    apple: '/apple-icon.png',
+    apple: '/apple-touch-icon.svg',
+    shortcut: '/favicon.ico',
   },
   verification: {
     google: 'google-site-verification-code', // Add your actual code
@@ -76,6 +73,8 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
+  metadataBase: new URL('https://testium.uz'),
+  manifest: '/manifest.json',
   alternates: {
     canonical: 'https://testium.uz',
   },
