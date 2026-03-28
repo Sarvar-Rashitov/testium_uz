@@ -71,7 +71,7 @@ export function Footer() {
             </h4>
             <div className="space-y-3">
               <a 
-                href="https://t.me/testium_uz" 
+                href="https://t.me/testiumuz" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors duration-200"
@@ -82,7 +82,7 @@ export function Footer() {
                 <span>Telegram</span>
               </a>
               <a 
-                href="https://instagram.com/testium_uz" 
+                href="https://instagram.com/eduself_uz" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors duration-200"
@@ -93,7 +93,7 @@ export function Footer() {
                 <span>Instagram</span>
               </a>
               <a 
-                href="https://youtube.com/@testium_uz" 
+                href="https://youtube.com/@eduself_uz" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors duration-200"
