@@ -12,6 +12,7 @@ import { LanguageSwitcher } from "@/components/language-switcher"
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isOpen, setIsOpen] = useState(false)
+  const [hasBanner, setHasBanner] = useState(false)
   const { t } = useI18n()
 
   const navLinks = [
@@ -31,10 +32,20 @@ export function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
 
+  useEffect(() => {
+    const check = () =>
+      setHasBanner(document.documentElement.hasAttribute("data-banner"))
+    check()
+    const observer = new MutationObserver(check)
+    observer.observe(document.documentElement, { attributes: true, attributeFilter: ["data-banner"] })
+    return () => observer.disconnect()
+  }, [])
+
   return (
     <header
       className={cn(
-        "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
+        "fixed left-0 right-0 z-50 transition-all duration-300",
+        hasBanner ? "top-9" : "top-0",
         isScrolled
           ? "bg-background/80 backdrop-blur-xl border-b border-border"
           : "bg-transparent"

@@ -4,6 +4,7 @@ import { Analytics } from '@vercel/analytics/next'
 import { I18nProvider } from '@/lib/i18n/context'
 import { ThemeProvider } from '@/components/theme-provider'
 import { GalaxyCursor } from '@/components/galaxy-cursor'
+import { PromoBanner } from '@/components/promo-banner'
 import './globals.css'
 
 const geist = Geist({ 
@@ -123,6 +124,7 @@ export default function RootLayout({
       </head>
       <body className={`${geist.variable} ${geistMono.variable} font-sans antialiased`}>
         <GalaxyCursor />
+        <PromoBanner />
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           <I18nProvider>
             {children}
