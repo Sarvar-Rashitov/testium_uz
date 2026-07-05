@@ -95,7 +95,7 @@ export default function ExamsPage() {
                 className="bg-foreground text-background hover:bg-foreground/90 rounded-full px-8 py-6"
                 asChild
               >
-                <a href="https://prep.eduself.uz" target="_blank" rel="noopener noreferrer">
+                <a href="https://my.mock.eduself.uz" target="_blank" rel="noopener noreferrer">
                   Start Practicing Now
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </a>
@@ -231,7 +231,7 @@ export default function ExamsPage() {
               className="bg-foreground text-background hover:bg-foreground/90 rounded-full px-8 py-6 text-base font-medium group"
               asChild
             >
-              <a href="https://prep.eduself.uz" target="_blank" rel="noopener noreferrer">
+              <a href="https://my.mock.eduself.uz" target="_blank" rel="noopener noreferrer">
                 Start Your Practice
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </a>

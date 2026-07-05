@@ -307,7 +307,7 @@ export default function AITechnologyPage() {
               {t.cta.subtitle}
             </p>
             <a
-              href="https://prep.eduself.uz"
+              href="https://my.mock.eduself.uz"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-8 py-3 bg-white text-blue-600 font-semibold rounded-lg hover:bg-blue-50 transition-colors"
