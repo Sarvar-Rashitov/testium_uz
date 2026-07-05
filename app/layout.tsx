@@ -17,34 +17,34 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Testium - AI-Powered Mock Exam & Test Preparation Platform',
+  title: 'EduSelf - AI-Powered Mock Exam & Test Preparation Platform',
   description: 'Best AI-powered mock exam platform for IELTS, TOEFL, SAT, GRE & DTM. Simulate real exams, get instant AI evaluation, and improve with advanced analytics.',
   generator: 'Next.js',
-  applicationName: 'Testium',
+  applicationName: 'EduSelf',
   creator: 'EduSelf.uz',
   keywords: ['mock exam', 'practice test', 'IELTS', 'TOEFL', 'SAT', 'GRE', 'DTM', 'exam preparation', 'online test', 'AI evaluation', 'exam simulator'],
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://testium.uz',
-    siteName: 'Testium',
-    title: 'Testium - AI-Powered Mock Exam Platform',
+    url: 'https://eduself.uz',
+    siteName: 'EduSelf',
+    title: 'EduSelf - AI-Powered Mock Exam Platform',
     description: 'Best AI-powered mock exam platform for IELTS, TOEFL, SAT, GRE & DTM. Instant evaluation and advanced analytics.',
     images: [
       {
-        url: 'https://testium.uz/og-image.png',
+        url: 'https://eduself.uz/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Testium - AI-Powered Mock Exam Platform',
+        alt: 'EduSelf - AI-Powered Mock Exam Platform',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Testium - AI-Powered Mock Exam Platform',
+    title: 'EduSelf - AI-Powered Mock Exam Platform',
     description: 'Best AI-powered mock exam platform for IELTS, TOEFL, SAT, GRE & DTM',
-    creator: '@testium_uz',
-    images: ['https://testium.uz/og-image.png'],
+    creator: '@eduself_uz',
+    images: ['https://eduself.uz/og-image.png'],
   },
   icons: {
     icon: [
@@ -74,10 +74,10 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  metadataBase: new URL('https://testium.uz'),
+  metadataBase: new URL('https://eduself.uz'),
   manifest: '/manifest.json',
   alternates: {
-    canonical: 'https://testium.uz',
+    canonical: 'https://eduself.uz',
   },
 }
 
@@ -89,9 +89,9 @@ export default function RootLayout({
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'WebApplication',
-    name: 'Testium',
+    name: 'EduSelf',
     description: 'AI-powered mock exam and test preparation platform',
-    url: 'https://testium.uz',
+    url: 'https://eduself.uz',
     applicationCategory: 'EducationalApplication',
     offers: {
       '@type': 'Offer',

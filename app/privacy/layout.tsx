@@ -1,20 +1,20 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy - Testium AI Exam Platform',
-  description: 'Read Testium\'s privacy policy. We are committed to protecting your personal data and ensuring your privacy on our platform.',
+  title: 'Privacy Policy - EduSelf AI Exam Platform',
+  description: 'Read EduSelf\'s privacy policy. We are committed to protecting your personal data and ensuring your privacy on our platform.',
   robots: {
     index: true,
     follow: true,
   },
   openGraph: {
-    title: 'Privacy Policy - Testium',
+    title: 'Privacy Policy - EduSelf',
     description: 'Our commitment to your privacy and data protection.',
-    url: 'https://testium.uz/privacy',
+    url: 'https://eduself.uz/privacy',
     type: 'website',
   },
   alternates: {
-    canonical: 'https://testium.uz/privacy',
+    canonical: 'https://eduself.uz/privacy',
   },
 }
 
