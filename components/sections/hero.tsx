@@ -70,7 +70,7 @@ export function HeroSection() {
               className="bg-foreground text-background hover:bg-foreground/90 rounded-full px-8 py-6 text-base font-medium group"
               asChild
             >
-              <a href="https://my.mock.eduself.uz" target="_blank" rel="noopener noreferrer">
+              <a href="https://mymock.eduself.uz" target="_blank" rel="noopener noreferrer">
                 {t.hero.requestDemo}
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </a>
@@ -81,7 +81,7 @@ export function HeroSection() {
               className="border-border hover:bg-secondary rounded-full px-8 py-6 text-base font-medium group"
               asChild
             >
-              <a href="https://my.mock.eduself.uz" target="_blank" rel="noopener noreferrer">
+              <a href="https://mymock.eduself.uz" target="_blank" rel="noopener noreferrer">
                 <Play className="mr-2 h-4 w-4" />
                 {t.hero.watchDemo}
               </a>
