@@ -95,7 +95,7 @@ export default function ExamsPage() {
                 className="bg-foreground text-background hover:bg-foreground/90 rounded-full px-8 py-6"
                 asChild
               >
-                <a href="https://prep.testium.uz" target="_blank" rel="noopener noreferrer">
+                <a href="https://prep.eduself.uz" target="_blank" rel="noopener noreferrer">
                   Start Practicing Now
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </a>
@@ -157,7 +157,7 @@ export default function ExamsPage() {
         </div>
       </section>
 
-      {/* Why Testium */}
+      {/* Why EduSelf */}
       <section className="py-20 border-y border-border bg-secondary/20">
         <div className="container mx-auto px-4 lg:px-8">
           <motion.div
@@ -167,7 +167,7 @@ export default function ExamsPage() {
             className="text-center max-w-3xl mx-auto mb-12"
           >
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 text-balance">
-              Why Choose Testium?
+              Why Choose EduSelf?
             </h2>
           </motion.div>
 
@@ -224,14 +224,14 @@ export default function ExamsPage() {
               Ready to Prepare for Your Exam?
             </h2>
             <p className="text-lg text-muted-foreground mb-8">
-              Start practicing with Testium today and get ready for your exam with confidence.
+              Start practicing with EduSelf today and get ready for your exam with confidence.
             </p>
             <Button 
               size="lg" 
               className="bg-foreground text-background hover:bg-foreground/90 rounded-full px-8 py-6 text-base font-medium group"
               asChild
             >
-              <a href="https://prep.testium.uz" target="_blank" rel="noopener noreferrer">
+              <a href="https://prep.eduself.uz" target="_blank" rel="noopener noreferrer">
                 Start Your Practice
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </a>

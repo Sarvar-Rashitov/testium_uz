@@ -37,7 +37,7 @@ export function CTASection() {
               className="bg-foreground text-background hover:bg-foreground/90 rounded-full px-8 py-6 text-base font-medium group"
               asChild
             >
-              <a href="https://prep.testium.uz" target="_blank" rel="noopener noreferrer">
+              <a href="https://prep.eduself.uz" target="_blank" rel="noopener noreferrer">
                 <Calendar className="mr-2 h-4 w-4" />
                 {t.cta.button}
               </a>
@@ -48,7 +48,7 @@ export function CTASection() {
               className="border-border hover:bg-secondary rounded-full px-8 py-6 text-base font-medium group"
               asChild
             >
-              <a href="https://prep.testium.uz" target="_blank" rel="noopener noreferrer">
+              <a href="https://prep.eduself.uz" target="_blank" rel="noopener noreferrer">
                 {t.nav.getStarted}
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </a>

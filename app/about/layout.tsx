@@ -1,12 +1,12 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'About Testium - AI Education Technology Company',
-  description: 'Learn about Testium, an AI-powered educational technology company dedicated to transforming exam preparation through artificial intelligence and innovation.',
-  keywords: ['about testium', 'education technology', 'AI education', 'exam preparation company', 'EduSelf.uz'],
+  title: 'About EduSelf - AI Education Technology Company',
+  description: 'Learn about EduSelf, an AI-powered educational technology company dedicated to transforming exam preparation through artificial intelligence and innovation.',
+  keywords: ['about eduself', 'education technology', 'AI education', 'exam preparation company', 'EduSelf.uz'],
   openGraph: {
-    title: 'About Testium - AI Education Technology',
-    description: 'Making education smarter with AI. Learn our mission, vision, and team behind Testium.',
+    title: 'About EduSelf - AI Education Technology',
+    description: 'Making education smarter with AI. Learn our mission, vision, and team behind EduSelf.',
     url: 'https://testium.uz/about',
     type: 'website',
     images: [

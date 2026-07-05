@@ -53,7 +53,7 @@ export function UseCasesSection() {
             <span className="bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent"> every organization</span>
           </h2>
           <p className="text-muted-foreground text-lg">
-            Whether you&apos;re a small tutoring center or a large university, Testium scales with your needs.
+            Whether you&apos;re a small tutoring center or a large university, EduSelf scales with your needs.
           </p>
         </motion.div>
 

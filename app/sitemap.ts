@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // Use environment variable for base URL, with fallback
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://testium.uz'
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://mock.eduself.uz'
   const today = new Date().toISOString().split('T')[0]
 
   return [

@@ -55,7 +55,7 @@ export function AIHighlightSection() {
 
             <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
               Our advanced AI engine evaluates all answer types with unprecedented accuracy. 
-              From multiple choice to complex essays, Testium delivers instant, unbiased results.
+              From multiple choice to complex essays, EduSelf delivers instant, unbiased results.
             </p>
 
             <Button 

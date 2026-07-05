@@ -93,7 +93,7 @@ export default function ContactPage() {
             </h1>
             
             <p className="text-lg text-muted-foreground text-pretty">
-              Have questions about Testium? Want to schedule a demo? 
+              Have questions about EduSelf? Want to schedule a demo? 
               We&apos;d love to hear from you and help transform your exam process.
             </p>
           </motion.div>
@@ -122,16 +122,16 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-medium text-foreground mb-1">Email</h3>
                     <a 
-                      href="mailto:contact@testium.uz"
+                      href="mailto:contact@eduself.uz"
                       className="text-muted-foreground hover:text-blue-400 transition-colors block"
                     >
-                      contact@testium.uz
+                      contact@eduself.uz
                     </a>
                     <a 
-                      href="mailto:support@testium.uz"
+                      href="mailto:support@eduself.uz"
                       className="text-muted-foreground hover:text-blue-400 transition-colors block"
                     >
-                      support@testium.uz
+                      support@eduself.uz
                     </a>
                   </div>
                 </div>
@@ -147,12 +147,12 @@ export default function ContactPage() {
                     </a>
                     <p className="mt-2">
                       <a 
-                        href="https://t.me/testium_admin" 
+                        href="https://t.me/eduself_admin" 
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-muted-foreground hover:text-blue-400 transition-colors"
                       >
-                        Telegram: @testium_admin
+                        Telegram: @eduself_admin
                       </a>
                     </p>
                   </div>

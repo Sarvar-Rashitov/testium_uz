@@ -61,7 +61,7 @@ export function Navbar() {
                 <span className="text-white font-bold text-sm">T</span>
               </div>
             </div>
-            <span className="text-xl font-bold text-foreground">Testium</span>
+            <span className="text-xl font-bold text-foreground">EduSelf</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -84,7 +84,7 @@ export function Navbar() {
               className="bg-foreground text-background hover:bg-foreground/90 rounded-full px-6"
               asChild
             >
-              <a href="https://prep.testium.uz" target="_blank" rel="noopener noreferrer">
+              <a href="https://prep.eduself.uz" target="_blank" rel="noopener noreferrer">
                 {t.nav.demo}
               </a>
             </Button>
@@ -92,7 +92,7 @@ export function Navbar() {
               className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-semibold rounded-full px-8 text-base"
               asChild
             >
-              <a href="https://prep.testium.uz" target="_blank" rel="noopener noreferrer">
+              <a href="https://prep.eduself.uz" target="_blank" rel="noopener noreferrer">
                 {t.nav.getStarted}
               </a>
             </Button>
@@ -122,12 +122,12 @@ export function Navbar() {
                   ))}
                   <div className="flex flex-col gap-3 mt-8">
                     <Button className="w-full bg-foreground text-background font-semibold" asChild>
-                      <a href="https://prep.testium.uz" target="_blank" rel="noopener noreferrer">
+                      <a href="https://prep.eduself.uz" target="_blank" rel="noopener noreferrer">
                         {t.nav.demo}
                       </a>
                     </Button>
                     <Button className="w-full bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-semibold" asChild>
-                      <a href="https://prep.testium.uz" target="_blank" rel="noopener noreferrer">
+                      <a href="https://prep.eduself.uz" target="_blank" rel="noopener noreferrer">
                         {t.nav.getStarted}
                       </a>
                     </Button>

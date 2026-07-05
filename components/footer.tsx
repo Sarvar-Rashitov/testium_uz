@@ -30,7 +30,7 @@ export function Footer() {
                   <span className="text-white font-bold text-sm">T</span>
                 </div>
               </div>
-              <span className="text-lg font-bold text-foreground">Testium</span>
+              <span className="text-lg font-bold text-foreground">EduSelf</span>
             </Link>
             <p className="text-sm text-muted-foreground leading-relaxed mb-6">
               {t.footer.description}
@@ -71,7 +71,7 @@ export function Footer() {
             </h4>
             <div className="space-y-3">
               <a 
-                href="https://t.me/testiumuz" 
+                href="https://t.me/eduselfuz" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors duration-200"
@@ -148,7 +148,7 @@ export function Footer() {
       <div className="container mx-auto px-4 lg:px-8 py-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-xs text-muted-foreground">
-            © {currentYear} Testium. {t.footer.rights}
+            © {currentYear} EduSelf. {t.footer.rights}
           </p>
           <p className="text-xs text-muted-foreground">
             Made with care for education
